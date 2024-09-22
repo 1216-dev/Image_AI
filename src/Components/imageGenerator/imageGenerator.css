@@ -1,0 +1,68 @@
+.ai-image-generator {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.header {
+    font-size: 70px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.header span {
+    color: #DE1B89;
+    font-weight: 600;
+}
+
+.image-loading {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-loading img {
+    width: 512px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    width: 700px; /* Increase width for better layout */
+    height: 95px;
+    justify-content: space-between; /* Space between input and button */
+    border-radius: 50px;
+    background: #1F3540;
+    padding: 0 15px; /* Add padding for better spacing */
+}
+
+.search-input {
+    flex: 1; /* Allow input to grow */
+    height: 50px;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 15px; /* Adjust padding */
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.generate-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px; /* Adjust button width */
+    height: 50px; /* Match input height */
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #DE1B89;
+    cursor: pointer;
+    margin-left: 10px; /* Space between input and button */
+}
